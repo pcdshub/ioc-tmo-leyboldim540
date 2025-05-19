@@ -1,0 +1,24 @@
+# default group
+* @pcdshub/tmo-members
+
+# language-specific group(s)
+## EPICS files
+*.archive @pcdshub/epics-reviewers @pcdshub/tmo-members
+*.autosave @pcdshub/epics-reviewers @pcdshub/tmo-members
+*.cmd @pcdshub/epics-reviewers @pcdshub/tmo-members
+*.db @pcdshub/epics-reviewers @pcdshub/tmo-members
+*.dbd @pcdshub/epics-reviewers @pcdshub/tmo-members
+*.edl @pcdshub/epics-reviewers @pcdshub/tmo-members
+*.ioc @pcdshub/epics-reviewers @pcdshub/tmo-members
+*.proto @pcdshub/epics-reviewers @pcdshub/tmo-members
+*.req @pcdshub/epics-reviewers @pcdshub/tmo-members
+*.sub-arch @pcdshub/epics-reviewers @pcdshub/tmo-members
+*.sub-req @pcdshub/epics-reviewers @pcdshub/tmo-members
+*.substitutions @pcdshub/epics-reviewers @pcdshub/tmo-members
+*.tpl-arch @pcdshub/epics-reviewers @pcdshub/tmo-members
+*.tpl-req @pcdshub/epics-reviewers @pcdshub/tmo-members
+RELEASE_SITE @pcdshub/epics-reviewers @pcdshub/tmo-members
+/configure/RELEASE @pcdshub/epics-reviewers @pcdshub/tmo-members
+
+# github folder holds administrative files
+.github/** @pcdshub/software-admin
